@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container {
+  width: 1440px;
+  height: 730px;
+  margin: 50px auto;
+  background-color: hsl(185, 75%, 39%);
+  position: relative;
+}
+.content-wrapper {
+  width: 370px;
+  height: 400px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 12px;
+  left: 535px;
+  top: 165px;
+}
+.card {
+  width: 370px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.victor {
+  margin-left: 137px;
+  border-radius: 51.25px;
+  margin-top: -48px;
+  border: 6.5px solid white;
+}
+.text-victor {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: hsl(229, 23%, 23%);
+}
+span {
+  color: hsl(0, 0%, 59%);
+}
+.london {
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+  font-size: 16px;
+  margin-top: 6px;
+}
+hr {
+  width: 368px;
+  margin-top: 30px;
+  background-color: hsl(227, 10%, 46%);
+  height: 0.1px;
+}
+.container .content-wrapper .last-paragraph {
+  display: flex;
+  margin: 30px 5px;
+  justify-content: space-evenly;
+}
+.bold-text {
+  font-size: 20px;
+  color: hsl(229, 23%, 23%);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.stats {
+  font-size: 13px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
